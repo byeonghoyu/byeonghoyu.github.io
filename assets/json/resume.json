@@ -8,6 +8,7 @@
     "url": "https://hoeng4.github.io/",
     "location": "Pohang, South Korea"
   },
+
   "education": [
     {
       "order": 3,
@@ -39,5 +40,8 @@
       "startDate": "Feb 2019",
       "endDate" : "Feb 2024"    
     }
-  ]
+  ],
+
+
+  "publications": []
 }

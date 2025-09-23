@@ -56,7 +56,6 @@ layout: default
   <div class="post">
     <header class="post-header">
       <h1 class="post-title">
-        {{ page.title }}
         {% if page.cv_pdf %}
           <a
             {% if page.cv_pdf contains '://' %}
@@ -85,10 +84,12 @@ layout: default
               {% continue %}
             {% endunless %}
           {% endif %}
-          {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
+          {% if data[0] == 'meta' or (data[1].size == 0 and data[0] != 'publications') %} {% continue %} {% endif %}
           <a class="anchor" id="{{ data[0] }}"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
+            {% unless data[0] == 'basics' %}
+              <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
+            {% endunless %}
             <div>
               {% case data[0] %}
                 {% when 'basics' %}
@@ -111,6 +112,8 @@ layout: default
                   {% include resume/languages.liquid %}
                 {% when 'interests' %}
                   {% include resume/interests.liquid %}
+                {% when 'hobbies' %}
+                  {% include resume/hobbies.liquid %}
                 {% when 'certificates' %}
                   {% include resume/certificates.liquid %}
                 {% when 'references' %}

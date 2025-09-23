@@ -27,8 +27,8 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-I am **Byeongho Yu**, an integrated student in the Department of Computer Science and Engineering at POSTECH.
-Since 2024, I have been advised by Prof. Eunhyeok Park at the [Eco Lab](https://sites.google.com/view/eh-p).
+I am **Byeongho Yu**, an integrated student in CSE Department at POSTECH. \\
+Since 2024, I have been advised by Prof. Eunhyeok Park at the [Eco Lab (Efficient Computing Lab)](https://sites.google.com/view/eh-p).
 
 My research focuses on exploring methods for improving performance and efficiency across various AI domains, including large language models (LLMs) and vision-language-action (VLA) systems.
 
