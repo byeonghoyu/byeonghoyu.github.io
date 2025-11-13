@@ -1,11 +1,12 @@
 {
   "basics": {
     "name": "Byeongho Yu",
-    "image": "",
-    "email1": "bhyu418@postech.ac.kr",
-    "email2": "bhyu418@gmail.com",
+    "image": "/assets/img/prof_pic.png",
+    "email (work)": "bhyu418@postech.ac.kr",
+    "email (personal)": "bhyu418@gmail.com",
     "phone": "(+82) 010-9174-9031",
     "url": "https://hoeng4.github.io/",
+    "linkedin": "https://www.linkedin.com/in/byeongho-yu-3940a51aa/",
     "location": "Pohang, South Korea"
   },
 
