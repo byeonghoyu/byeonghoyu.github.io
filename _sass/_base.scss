@@ -494,12 +494,15 @@ footer.fixed-bottom {
 }
 
 footer.sticky-bottom {
-  border-top: 1px solid var(--global-divider-color);
+  background: transparent;
+  border: 0;
+  color: #777777;
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 0.9rem;
 
   .container {
+    color: inherit;
     text-align: center;
   }
 }
@@ -1501,7 +1504,8 @@ figure.cover {
   gap: 2rem;
   margin-bottom: 2rem;
   padding-bottom: 0.75rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.65);
+  // Use an opaque color to avoid invalid HSLA output from CSS minification.
+  border-bottom: 1px solid #b0b0b0;
 
   .post-title {
     flex-shrink: 0;
