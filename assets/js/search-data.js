@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-cv",
-          title: "cv",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
-        },{id: "post-a-post-with-plotly-js",
+  },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -384,11 +377,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-my-first-paper-prunecd-contrasting-pruned-self-model-to-improve-decoding-factuality-has-been-accepted-to-emnlp-2025-main-conference",
+            },},{id: "news-my-first-paper-prunecd-contrasting-pruned-self-model-to-improve-decoding-factuality-has-been-accepted-to-emnlp-2025-main-conference-read-our-paper",
           title: 'My first paper “PruneCD: Contrasting Pruned Self Model to Improve Decoding Factuality” has...',
           description: "",
-          section: "News",},{id: "news-our-paper-stabilizing-direct-training-of-spiking-neural-networks-membrane-potential-initialization-and-threshold-robust-surrogate-gradient-has-been-accepted-to-wacv-2026",
+          section: "News",},{id: "news-our-paper-stabilizing-direct-training-of-spiking-neural-networks-membrane-potential-initialization-and-threshold-robust-surrogate-gradient-has-been-accepted-to-wacv-2026-read-our-paper",
           title: 'Our paper “Stabilizing Direct Training of Spiking Neural Networks: Membrane Potential Initialization and...',
+          description: "",
+          section: "News",},{id: "news-our-paper-loopcd-loop-wise-contrastive-decoding-for-improving-reasoning-in-looped-language-models-has-been-accepted-to-emnlp-2026-main-conference-read-our-paper",
+          title: 'Our paper “LoopCD: Loop-wise Contrastive Decoding for Improving Reasoning in Looped Language Models”...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
