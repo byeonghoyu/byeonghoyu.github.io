@@ -253,12 +253,15 @@ let transTheme = () => {
 
 // Determine the expected state of the theme toggle, which can be "dark", "light", or
 // "system". Default is "system".
+// let determineThemeSetting = () => {
+//   let themeSetting = localStorage.getItem("theme");
+//   if (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") {
+//     themeSetting = "system";
+//   }
+//   return themeSetting;
+// };
 let determineThemeSetting = () => {
-  let themeSetting = localStorage.getItem("theme");
-  if (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") {
-    themeSetting = "system";
-  }
-  return themeSetting;
+  return "dark";
 };
 
 // Determine the computed theme, which can be "dark" or "light". If the theme setting is
@@ -277,22 +280,26 @@ let determineComputedTheme = () => {
   }
 };
 
+// let initTheme = () => {
+//   let themeSetting = determineThemeSetting();
+
+//   setThemeSetting(themeSetting);
+
+//   // Add event listener to the theme toggle button.
+//   document.addEventListener("DOMContentLoaded", function () {
+//     const mode_toggle = document.getElementById("light-toggle");
+
+//     mode_toggle.addEventListener("click", function () {
+//       toggleThemeSetting();
+//     });
+//   });
+
+//   // Add event listener to the system theme preference change.
+//   window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", ({ matches }) => {
+//     applyTheme();
+//   });
+// };
+
 let initTheme = () => {
-  let themeSetting = determineThemeSetting();
-
-  setThemeSetting(themeSetting);
-
-  // Add event listener to the theme toggle button.
-  document.addEventListener("DOMContentLoaded", function () {
-    const mode_toggle = document.getElementById("light-toggle");
-
-    mode_toggle.addEventListener("click", function () {
-      toggleThemeSetting();
-    });
-  });
-
-  // Add event listener to the system theme preference change.
-  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", ({ matches }) => {
-    applyTheme();
-  });
+  setThemeSetting("dark");
 };

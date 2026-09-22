@@ -1423,3 +1423,102 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+// Compact year labels aligned with the homepage publication dividers.
+.publications.homepage-publications {
+  margin-top: 1rem;
+
+  > h2.bibliography {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    height: 0;
+    padding-top: 0;
+    border-top: 0;
+    margin-top: 2rem;
+    margin-bottom: 1.25rem;
+    font-size: 1rem;
+    line-height: 1;
+    color: var(--global-text-color-light);
+
+    &::before {
+      content: "";
+      flex: 1;
+      border-top: 1px solid var(--global-divider-color);
+    }
+  }
+
+  > h2.bibliography:first-child {
+    margin-top: 0;
+  }
+}
+
+// Keep the venue and publication links on the same row.
+.publications ol.bibliography li .links.publication-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+
+  .publication-venue {
+    margin-right: 0.25rem;
+    white-space: nowrap;
+  }
+
+  a.btn {
+    margin: 0;
+  }
+}
+
+// A smaller portrait leaves more room for the introduction.
+.profile.homepage-profile {
+  width: 24%;
+  max-width: 220px;
+}
+
+@media (max-width: 575.98px) {
+  .profile.homepage-profile {
+    width: 60%;
+    float: none !important;
+    margin: 0 auto 1rem;
+  }
+}
+
+// Conference text colors on the dark background.
+.publications .publication-venue--emnlp {
+  color: #f48fb1;
+}
+
+.publications .publication-venue--wacv {
+  color: #81c995;
+}
+
+// Name beside the compact affiliation and contact block.
+.homepage-header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.65);
+
+  .post-title {
+    flex-shrink: 0;
+    margin-bottom: 0;
+  }
+
+  .homepage-contact {
+    margin: 0;
+    min-width: 0;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .homepage-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}
