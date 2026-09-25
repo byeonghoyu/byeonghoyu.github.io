@@ -187,6 +187,8 @@
       {% endif %}
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+      {% elsif entry.arxiv_coming_soon == 'true' %}
+        <button type="button" class="btn btn-sm z-depth-0 publication-coming-soon" disabled>arXiv · Coming soon</button>
       {% endif %}
       {% if entry.bibtex_show %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
@@ -222,6 +224,8 @@
       {% endif %}
       {% if entry.code %}
         <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+      {% elsif entry.code_coming_soon == 'true' %}
+        <button type="button" class="btn btn-sm z-depth-0 publication-coming-soon" disabled>Code · Coming soon</button>
       {% endif %}
       {% if entry.poster %}
         {% if entry.poster contains '://' %}

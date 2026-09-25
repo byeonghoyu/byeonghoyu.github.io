@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My first paper “PruneCD: Contrasting Pruned Self Model to Improve Decoding Factuality” has been accepted to **EMNLP 2025 Main Conference** 🎉 Read our [paper](https://arxiv.org/abs/2509.16598).
+My first paper <a class="news-paper-title news-venue--emnlp" href="https://arxiv.org/abs/2509.16598">“PruneCD: Contrasting Pruned Self Model to Improve Decoding Factuality”</a> has been accepted to <span class="news-venue--emnlp">EMNLP 2025 Main Conference</span> 🎉

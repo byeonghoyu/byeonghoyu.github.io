@@ -1472,6 +1472,17 @@ figure.cover {
   a.btn {
     margin: 0;
   }
+
+  .publication-coming-soon {
+    color: #888888;
+    border: 1px solid #666666;
+    background: transparent;
+    padding: 0.25rem 1rem;
+    margin: 0;
+    opacity: 1;
+    cursor: default;
+    text-transform: none;
+  }
 }
 
 // A smaller portrait leaves more room for the introduction.
@@ -1489,12 +1500,19 @@ figure.cover {
 }
 
 // Conference text colors on the dark background.
-.publications .publication-venue--emnlp {
+.publications .publication-venue--emnlp,
+.news .news-venue--emnlp {
   color: #f48fb1;
 }
 
-.publications .publication-venue--wacv {
+.publications .publication-venue--wacv,
+.news .news-venue--wacv {
   color: #81c995;
+}
+
+.publications .publication-venue--neurips,
+.news .news-venue--neurips {
+  color: #b39ddb;
 }
 
 // Name beside the compact affiliation and contact block.
