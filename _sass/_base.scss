@@ -1499,6 +1499,11 @@ figure.cover {
   }
 }
 
+.news .news-paper-title {
+  color: var(--global-text-color);
+  font-weight: 700;
+}
+
 // Conference text colors on the dark background.
 .publications .publication-venue--emnlp,
 .news .news-venue--emnlp {

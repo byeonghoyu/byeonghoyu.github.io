@@ -32,9 +32,9 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-I am a **PhD student in [Computer Science and Engineering](https://cse.postech.ac.kr/csepostech/index.do) at [POSTECH](https://www.postech.ac.kr/)**, advised by Prof. Eunhyeok Park at the [Eco Lab (Efficient Computing Lab)](https://sites.google.com/view/eh-p), part of the [ML Lab](https://ml.postech.ac.kr/).
+I am a **PhD student in [Computer Science and Engineering](https://cse.postech.ac.kr/csepostech/index.do) at [POSTECH](https://www.postech.ac.kr/)**, advised by **Prof. Eunhyeok Park** at the **[Eco Lab (Efficient Computing Lab)](https://sites.google.com/view/eh-p)**, part of the **[ML Lab](https://ml.postech.ac.kr/)**.
 
-I started my **PhD in 2024** and earned my **B.S. in [Computer Science and Engineering](https://cse.postech.ac.kr/csepostech/index.do) from [POSTECH](https://www.postech.ac.kr/)**. I was also an **exchange student at [Université de technologie de Troyes](https://www.utt.fr/)** in 2023.
+I started my **PhD in 2024** and earned my **B.S. in [Computer Science and Engineering](https://cse.postech.ac.kr/csepostech/index.do) from [POSTECH](https://www.postech.ac.kr/)**. I was also an **exchange student at [Université de technologie de Troyes](https://www.utt.fr/), France**, in 2023.
 
 I am broadly interested in improving the efficiency and performance of AI models through approaches such as model compression and efficient inference. Recently, I have been particularly interested in reasoning in LLMs and how to improve it efficiently. My interests span large language models, looped language models, and spiking neural networks.
 

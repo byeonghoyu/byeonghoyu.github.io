@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper <span class="news-paper-title news-venue--neurips">“Robust and Efficient Continual Model Merging via Global Singular Subspace Separation and Restoration”</span> has been accepted to <span class="news-venue--neurips">NeurIPS 2026</span> 🎉
+Our paper <span class="news-paper-title">“Robust and Efficient Continual Model Merging via Global Singular Subspace Separation and Restoration”</span> has been accepted to <span class="news-venue--neurips">NeurIPS 2026</span> 🎉
