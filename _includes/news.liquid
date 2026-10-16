@@ -5,6 +5,10 @@
       class="table-responsive"
       {% if include.limit and page.announcements.scrollable and news_size > 3 %}
         style="max-height: 60vw"
+        data-news-scroll
+        tabindex="0"
+        role="region"
+        aria-label="News"
       {% endif %}
     >
       <table class="table table-sm table-borderless">
@@ -32,3 +36,7 @@
     <p>No news so far...</p>
   {% endif %}
 </div>
+
+{% if include.limit and page.announcements.scrollable and news_size > 3 %}
+  <script defer src="{{ '/assets/js/news-scroll.js' | relative_url | bust_file_cache }}"></script>
+{% endif %}

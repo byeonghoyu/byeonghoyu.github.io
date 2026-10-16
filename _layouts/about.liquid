@@ -13,7 +13,12 @@ layout: default
     </h1>
     <p class="desc homepage-contact">
       {{ page.subtitle }}{% if page.contact_links %}<br>
-        {{ page.contact_links | markdownify | remove: '<p>' | remove: '</p>' }}
+        <span class="homepage-contact-links">
+          {% assign contact_items = page.contact_links | split: ' · ' %}
+          {% for contact_item in contact_items %}
+            <span class="homepage-contact-item">{% unless forloop.first %}<span class="contact-separator" aria-hidden="true"> · </span>{% endunless %}{{ contact_item | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>
+          {% endfor %}
+        </span>
       {% endif %}
     </p>
   </header>

@@ -1549,3 +1549,33 @@ figure.cover {
     gap: 0.5rem;
   }
 }
+
+// Hint that more news is available without adding a separate label.
+@media (max-width: 767.98px) {
+  .news [data-news-scroll].news-has-more {
+    -webkit-mask-image: linear-gradient(to bottom, black calc(100% - 44px), transparent);
+    mask-image: linear-gradient(to bottom, black calc(100% - 44px), transparent);
+  }
+}
+
+.news .table {
+  color: var(--global-text-color);
+}
+
+.homepage-contact-links .homepage-contact-item {
+  white-space: nowrap;
+}
+
+@media (max-width: 767.98px) {
+  .homepage-contact-links {
+    display: block;
+  }
+
+  .homepage-contact-item:first-child {
+    display: block;
+  }
+
+  .homepage-contact-item:nth-child(2) .contact-separator {
+    display: none;
+  }
+}

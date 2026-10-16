@@ -2,7 +2,7 @@
 layout: about
 hide_header: true
 contact_links: >-
-  [bhyu418@postech.ac.kr](mailto:bhyu418@postech.ac.kr) · [LinkedIn](https://www.linkedin.com/in/byeongho-yu-3940a51aa/) · [GitHub](https://github.com/byeonghoyu) · [X](https://x.com/yubho__)
+  [bhyu418@postech.ac.kr](mailto:bhyu418@postech.ac.kr) · [LinkedIn](https://www.linkedin.com/in/byeongho-yu-3940a51aa/) · [GitHub](https://github.com/byeonghoyu) · [Google Scholar](https://scholar.google.com/citations?user=PiMA5P4AAAAJ&hl=ko)
 title: about
 permalink: /
 subtitle: <strong>PhD student</strong> @ POSTECH CSE
