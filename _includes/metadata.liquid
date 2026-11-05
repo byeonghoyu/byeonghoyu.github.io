@@ -78,7 +78,20 @@
   {% endif %}
 {% endif %}
 
-{% if site.serve_schema_org %}
+{% if page.url == '/' %}
+  {% unless site.serve_og_meta %}
+    <meta property="og:site_name" content="{{ author_name | strip | escape }}">
+  {% endunless %}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": {{ author_name | strip | jsonify }},
+      "alternateName": ["유병호", "byeonghoyu"],
+      "url": {{ '/' | absolute_url | jsonify }}
+    }
+  </script>
+{% elsif site.serve_schema_org %}
   <!-- Schema.org -->
   {% comment %} Social links generator for "sameAs schema" {% endcomment %}
   {% assign sameaslinks = '' | split: ',' %}
