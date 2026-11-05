@@ -4,6 +4,7 @@ hide_header: true
 contact_links: >-
   [bhyu418@postech.ac.kr](mailto:bhyu418@postech.ac.kr) · [LinkedIn](https://www.linkedin.com/in/byeongho-yu-3940a51aa/) · [GitHub](https://github.com/byeonghoyu) · [Google Scholar](https://scholar.google.com/citations?user=PiMA5P4AAAAJ&hl=ko)
 title: about
+seo_title: "Byeongho Yu (유병호) | POSTECH"
 permalink: /
 subtitle: <strong>PhD student</strong> @ POSTECH CSE
 # <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
