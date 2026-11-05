@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://byeonghoyu.github.io/sitemap.xml
+Sitemap: https://byeonghoyu.github.io/sitemap-main.xml
